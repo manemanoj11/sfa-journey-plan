@@ -1,0 +1,14 @@
+{
+  "name": "sfa-journey-plan",
+  "version": "1.0.0",
+  "description": "SFA Journey Plan - Sales Force Automation",
+  "scripts": {
+    "start": "cd backend && node server.js",
+    "install-all": "cd backend && npm install && cd ../frontend && npm install",
+    "build": "cd frontend && npm run build",
+    "seed": "cd backend && node seed/seed.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
